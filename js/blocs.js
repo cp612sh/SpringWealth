@@ -5,8 +5,12 @@ $(document).ready(function()
 
 	$('#scroll-hero').click(function()
 	{
-		$('html,body').animate({scrollTop: $("#hero-bloc").height()}, 'slow');
+		$('html,body').animate({scrollTop: $("#bloc-spring").height()}, 'slow');
 	});
+
+    $('#scroll-start').click(function(){
+        $('html,body').animate({scrollTop: $("#bloc-spring").height()}, 'slow');
+    });
 });
 
 // Window resize 
